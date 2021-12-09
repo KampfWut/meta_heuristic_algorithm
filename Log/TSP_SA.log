@@ -1,0 +1,33 @@
+>> Start Training by SA ...
+[2021-12-08 21:27:23] Start!
+[2021-12-08 21:27:23] Epoch     0: fit value = -1436.6353, histBest = -1413.7184
+[2021-12-08 21:27:23] Epoch  1000: fit value = -1461.6084, histBest = -1051.5440
+[2021-12-08 21:27:23] Epoch  2000: fit value = -1139.6501, histBest = -1021.6674
+[2021-12-08 21:27:23] Epoch  3000: fit value = -1102.8128, histBest = -794.6719
+[2021-12-08 21:27:24] Epoch  4000: fit value = -706.9473, histBest = -655.9662
+[2021-12-08 21:27:24] Epoch  5000: fit value = -559.7680, histBest = -550.0312
+[2021-12-08 21:27:25] Epoch  6000: fit value = -500.5237, histBest = -475.4176
+[2021-12-08 21:27:26] Epoch  7000: fit value = -475.1116, histBest = -462.4045
+[2021-12-08 21:27:27] Epoch  8000: fit value = -463.8396, histBest = -462.4045
+[2021-12-08 21:27:28] Epoch  9000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:30] Epoch 10000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:31] Epoch 11000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:32] Epoch 12000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:34] Epoch 13000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:35] Epoch 14000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:37] Epoch 15000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:38] Epoch 16000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:39] Epoch 17000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:41] Epoch 18000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:42] Epoch 19000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:43] Epoch 20000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:45] Epoch 21000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:46] Epoch 22000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:47] Epoch 23000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:49] Epoch 24000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:50] Epoch 25000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:52] Epoch 26000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:53] Epoch 27000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:54] Epoch 28000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:56] Epoch 29000: fit value = -462.4045, histBest = -462.4045
+[2021-12-08 21:27:57] Final Result: Stop epoch = 29999, Fit = -462.4045, histBest = -462.4045
