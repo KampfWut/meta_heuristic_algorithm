@@ -391,6 +391,35 @@ class Genetic_Base(object):
         return copy.deepcopy(new_population)
 
 
+@ray.remote
+def population_fit_feature_cal(population,
+                               fitFunction,
+                               fitFunctionInput,
+                               ite):
+    """Parallel population fitness calculation function
+
+    Args:
+        population (list): Single population
+        fitFunction (function): Fitness calculation function
+        fitFunctionInput (list): Auxiliary input of fitness calculation function
+        ite (int): Current population number
+
+    Returns:
+        [int, list]: Current population number, population characteristics (mean, variance, maximum)
+    """
+    
+    # Calculate population fitness
+    populationFit = []
+    for individual in population:
+        Fit = fitFunction(individual, fitFunctionInput)
+        populationFit.append(Fit)
+    
+    # Calculate population fitness characteristics
+    mean, std, max = np.mean(populationFit), np.std(populationFit), np.max(populationFit)
+    
+    return ite, [mean, std, max]
+
+
 class Genetic_Paralle(object):
     
     """Real genetic algorithm, parallel method tool class"""
@@ -473,7 +502,70 @@ class Genetic_Paralle(object):
                     raise Exception("[EEROR] Unknown Param: transfer_method({})".format(transfer_method))
         
         return new_paralle_population
-                
+    
+    
+    @classmethod
+    def Replacement(cls,
+                    paralle_population,
+                    replacement_scale,
+                    replacement_method,
+                    fitFunction,
+                    fitFunctionInput):
+        """Parallel coarse-grained genetic algorithm, population replacement
+
+        Args:
+            paralle_population (list): Parallel population
+            replacement_scale (int): Replacement population size
+            replacement_method (string): Replacement method
+            fitFunction (function): Fitness calculation function
+            fitFunctionInput (list)): Auxiliary input of fitness calculation function
+
+        Raises:
+            Exception: Bad data range, unknown data type
+
+        Returns:
+            [list]: The new parallel population, the partially killed species group is set as none
+        """
+        # Param Check
+        assert isinstance(replacement_scale, int), "[EEROR] replacement_scale need int."
+        assert replacement_scale > 0 and replacement_scale < len(paralle_population), \
+            "[ERROR] replacement_scale should between 0 and paralle_population length."
+        
+        # Parallel calculation of all population fitness
+        paralle_feature_id = [
+            population_fit_feature_cal.remote(paralle_population[ite], 
+                                              fitFunction, 
+                                              fitFunctionInput,
+                                              ite) 
+            for ite in range(0, len(paralle_population))
+        ]
+        paralle_feature_result = ray.get(paralle_feature_id)
+        
+        # Population replacement
+        new_paralle_population = copy.deepcopy(paralle_population)
+        if replacement_method == "mean_first":
+            temp = sorted(paralle_feature_result, key=lambda x: x[1][0]) 
+            for i in range(0, replacement_scale):
+                new_paralle_population[temp[i][0]] = None
+        elif replacement_method == "std_first":
+            temp = sorted(paralle_feature_result, key=lambda x: x[1][1], reverse=True) 
+            for i in range(0, replacement_scale):
+                new_paralle_population[temp[i][0]] = None
+        elif replacement_method == "max_first":
+            temp = sorted(paralle_feature_result, key=lambda x: x[1][2]) 
+            for i in range(0, replacement_scale):
+                new_paralle_population[temp[i][0]] = None
+        elif replacement_method == "standard":
+            temp = sorted(paralle_feature_result, key=lambda x: (x[1][2], x[1][0], -x[1][1])) 
+            for i in range(0, replacement_scale):
+                new_paralle_population[temp[i][0]] = None
+        else:
+            raise Exception("[ERROR] Unknown Param: replacement_method")       
+        
+        return new_paralle_population           
+    
+    
+     
 # ------------------------------ Main Def ----------------------------------- #
 
 @ray.remote
@@ -641,6 +733,8 @@ def GeneticAlgorithm_ParalleProcess(multi_population_num,
                                     multi_maximum_iteration=20,
                                     transfer_scale=0.2,
                                     transfer_method="random",
+                                    replacement_interval=10,
+                                    replacement_scale=10,
                                     # Child process related parameters
                                     serial_maximum_iteration=50,
                                     cross_prob_list=[0.5],
@@ -663,6 +757,9 @@ def GeneticAlgorithm_ParalleProcess(multi_population_num,
         multi_maximum_iteration (int, optional): Maximum number of iterations of the main thread. Defaults to 20.
         transfer_scale (float/int, optional): Migration scale. Defaults to 0.2.
         transfer_method (string, optional): Migration method. Defaults to "random".
+        replacement_interval (int, optional): Replacement interval: how many large iterations will one replacement \
+            occur. Defaults to 10.
+        replacement_scale (int, optional): Replacement scale. Defaults to 10.
         serial_maximum_iteration (int, optional): Maximum iteration times of sub population. Defaults to 50.
         cross_prob_list (list, optional): Possible list of crossover probabilities. Defaults to [0.5].
         mutation_prob_list (list, optional):Possible list of mutation probabilities. Defaults to [0.75].
@@ -770,7 +867,16 @@ def GeneticAlgorithm_ParalleProcess(multi_population_num,
                                                       transfer_method, 
                                                       fitFunction, 
                                                       fitFunctionInput)
-        # 3. Epoch output control
+        # 3. Replacement operation
+        if (epoch + 1) % replacement_interval == 0:
+            paralle_population = Genetic_Paralle.Replacement(paralle_population,
+                                                             replacement_scale,
+                                                             "standard",
+                                                             fitFunction,
+                                                             fitFunctionInput)
+            if output == True:
+                print("[Main] Do repalcement!")
+        # 4. Epoch output control
         if output == True:
             print("[Main][{}] Epoch {:3d}: Fit = {}, Hist Best Fit = {}".format(
                   time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),

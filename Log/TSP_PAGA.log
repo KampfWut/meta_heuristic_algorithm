@@ -1,106 +1,668 @@
 >> Start Training by PAGA ...
->> Start Training by PAGA ...
-[Main][2021-12-09 11:43:07] Start!
+[Main][2021-12-10 16:44:50] Start!
 [Main] Param num: 30
->> Start Training by PAGA ...
-[Main][2021-12-09 14:19:59] Start!
-[Main] Param num: 30
->> Start Training by PAGA ...
-[Main][2021-12-09 14:22:15] Start!
-[Main] Param num: 30
->> Start Training by PAGA ...
-[Main][2021-12-09 14:22:45] Start!
-[Main] Param num: 30
->> Start Training by PAGA ...
-[Main][2021-12-09 14:31:20] Start!
-[Main] Param num: 30
->> Start Training by PAGA ...
-[Main][2021-12-09 14:32:32] Start!
-[Main] Param num: 30
->> Start Training by PAGA ...
-[Main][2021-12-09 14:32:56] Start!
-[Main] Param num: 30
-[2m[36m(GeneticAlgorithm_SerialProcess pid=None)[0m 
->> Start Training by PAGA ...
-[Main][2021-12-09 14:34:30] Start!
-[Main] Param num: 30
->> Start Training by PAGA ...
-[Main][2021-12-09 14:38:56] Start!
-[Main] Param num: 30
->> Start Training by PAGA ...
-[Main][2021-12-09 14:43:56] Start!
-[Main] Param num: 30
->> Start Training by PAGA ...
-[Main][2021-12-09 14:44:05] Start!
-[Main] Param num: 30
->> Start Training by PAGA ...
-[Main][2021-12-09 14:44:32] Start!
-[Main] Param num: 30
-[2m[36m(GeneticAlgorithm_SerialProcess pid=45748)[0m 
->> Start Training by PAGA ...
-[Main][2021-12-09 14:45:58] Start!
-[Main] Param num: 30
->> Start Training by PAGA ...
-[Main][2021-12-09 14:46:45] Start!
-[Main] Param num: 30
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:46:52] Epoch   0: Fit = -667.5903657014666, Hist Best Fit = -667.5903657014666
+[Main][2021-12-10 16:44:58] Epoch   0: Fit = -685.7960780670832, Hist Best Fit = -685.7960780670832
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:46:56] Epoch   1: Fit = -542.7902424553679, Hist Best Fit = -542.7902424553679
+[Main][2021-12-10 16:45:02] Epoch   1: Fit = -548.9053298971493, Hist Best Fit = -548.9053298971493
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:47:00] Epoch   2: Fit = -515.394947833804, Hist Best Fit = -515.394947833804
+[Main][2021-12-10 16:45:06] Epoch   2: Fit = -535.5217834597722, Hist Best Fit = -535.5217834597722
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:47:04] Epoch   3: Fit = -495.9787330068443, Hist Best Fit = -495.9787330068443
+[Main][2021-12-10 16:45:10] Epoch   3: Fit = -504.30718554738553, Hist Best Fit = -504.30718554738553
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:47:08] Epoch   4: Fit = -461.33720916573157, Hist Best Fit = -461.33720916573157
+[Main] Do repalcement!
+[Main][2021-12-10 16:45:14] Epoch   4: Fit = -487.7697749256717, Hist Best Fit = -487.7697749256717
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:47:12] Epoch   5: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[Main][2021-12-10 16:45:18] Epoch   5: Fit = -480.075733935731, Hist Best Fit = -480.075733935731
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:47:16] Epoch   6: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[Main][2021-12-10 16:45:22] Epoch   6: Fit = -472.82820424991985, Hist Best Fit = -472.82820424991985
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:47:20] Epoch   7: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[Main][2021-12-10 16:45:26] Epoch   7: Fit = -469.08497733862106, Hist Best Fit = -469.08497733862106
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:47:24] Epoch   8: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[Main][2021-12-10 16:45:31] Epoch   8: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:47:27] Epoch   9: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[Main] Do repalcement!
+[Main][2021-12-10 16:45:35] Epoch   9: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:47:31] Epoch  10: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[Main][2021-12-10 16:45:40] Epoch  10: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:47:35] Epoch  11: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[Main][2021-12-10 16:45:44] Epoch  11: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:47:39] Epoch  12: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[Main][2021-12-10 16:45:48] Epoch  12: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:47:44] Epoch  13: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[Main][2021-12-10 16:45:52] Epoch  13: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:47:48] Epoch  14: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[Main] Do repalcement!
+[Main][2021-12-10 16:45:57] Epoch  14: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:47:52] Epoch  15: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[Main][2021-12-10 16:46:01] Epoch  15: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:47:56] Epoch  16: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[Main][2021-12-10 16:46:06] Epoch  16: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:48:01] Epoch  17: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[Main][2021-12-10 16:46:10] Epoch  17: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:48:05] Epoch  18: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[Main][2021-12-10 16:46:14] Epoch  18: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49028)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49029)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49026)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49015)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49013)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49025)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49027)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49043)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49024)[0m <module 'sys' (built-in)>
+[2m[36m(GeneticAlgorithm_SerialProcess pid=49022)[0m <module 'sys' (built-in)>
 [Main] Population Size: 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 
 [Main] transfer_scale = 20
-[Main][2021-12-09 14:48:09] Epoch  19: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
-[Main][2021-12-09 14:48:09] Final Result: HistBest = -458.69098293615843%
+[Main] Do repalcement!
+[Main][2021-12-10 16:46:18] Epoch  19: Fit = -458.69098293615843, Hist Best Fit = -458.69098293615843
+[Main][2021-12-10 16:46:18] Final Result: HistBest = -458.69098293615843%

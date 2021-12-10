@@ -36,8 +36,7 @@ def TSP_solve(method_name,
     root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     sys.path.append(root_path + "/meta_heuristic_algorithm/Method")
     sys.path.append(root_path + "/meta_heuristic_algorithm/Problem")
-    
-    # Problem definition
+
     node_num = 30
     paralle_flag = True if method_name in ["PAGA"] else False
     tsp = TSP.TSP(node_num, 100)
@@ -90,6 +89,8 @@ def TSP_solve(method_name,
                                                  multi_maximum_iteration=20,
                                                  transfer_scale=0.2,
                                                  transfer_method="random",
+                                                 replacement_interval=5,
+                                                 replacement_scale=10,
                                                  serial_maximum_iteration=50,
                                                  cross_prob_list=[0.3, 0.6],
                                                  mutation_prob_list=[0.8],
